@@ -4,40 +4,81 @@ Current versions of all skills. Agents can compare against local versions to che
 
 | Skill | Version | Last Updated |
 |-------|---------|--------------|
-| ab-test-setup | 1.1.0 | 2026-02-27 |
-| ad-creative | 1.1.0 | 2026-02-27 |
-| ai-seo | 1.1.0 | 2026-02-27 |
-| analytics-tracking | 1.1.0 | 2026-02-27 |
-| churn-prevention | 1.1.0 | 2026-02-27 |
-| cold-email | 1.1.0 | 2026-02-27 |
-| competitor-alternatives | 1.1.0 | 2026-02-27 |
-| content-strategy | 1.1.0 | 2026-02-27 |
-| copy-editing | 1.1.0 | 2026-02-27 |
-| copywriting | 1.1.0 | 2026-02-27 |
-| email-sequence | 1.1.0 | 2026-02-27 |
-| form-cro | 1.1.0 | 2026-02-27 |
-| free-tool-strategy | 1.1.0 | 2026-02-27 |
-| launch-strategy | 1.1.0 | 2026-02-27 |
-| marketing-ideas | 1.1.0 | 2026-02-27 |
-| marketing-psychology | 1.1.0 | 2026-02-27 |
-| onboarding-cro | 1.1.0 | 2026-02-27 |
-| page-cro | 1.1.0 | 2026-02-27 |
-| paid-ads | 1.1.0 | 2026-02-27 |
-| paywall-upgrade-cro | 1.1.0 | 2026-02-27 |
-| popup-cro | 1.1.0 | 2026-02-27 |
-| pricing-strategy | 1.1.0 | 2026-02-27 |
-| product-marketing-context | 1.1.0 | 2026-02-27 |
-| programmatic-seo | 1.1.0 | 2026-02-27 |
-| referral-program | 1.1.0 | 2026-02-27 |
-| revops | 1.1.0 | 2026-02-27 |
-| sales-enablement | 1.1.0 | 2026-02-27 |
-| schema-markup | 1.1.0 | 2026-02-27 |
-| seo-audit | 1.1.0 | 2026-02-27 |
-| signup-flow-cro | 1.1.0 | 2026-02-27 |
-| site-architecture | 1.1.0 | 2026-02-27 |
-| social-content | 1.1.0 | 2026-02-27 |
+| ab-test-setup | 1.2.0 | 2026-03-14 |
+| ad-creative | 1.2.0 | 2026-03-14 |
+| ai-seo | 1.2.0 | 2026-03-14 |
+| analytics-tracking | 1.2.0 | 2026-03-14 |
+| aso-audit | 1.0.0 | 2026-04-21 |
+| churn-prevention | 1.2.0 | 2026-03-14 |
+| cold-email | 1.2.0 | 2026-03-14 |
+| competitor-alternatives | 1.2.0 | 2026-03-14 |
+| community-marketing | 1.0.0 | 2026-04-21 |
+| competitor-profiling | 1.0.0 | 2026-04-07 |
+| content-strategy | 1.2.0 | 2026-03-14 |
+| copy-editing | 1.2.0 | 2026-03-14 |
+| copywriting | 1.2.0 | 2026-03-14 |
+| customer-research | 1.0.0 | 2026-04-21 |
+| directory-submissions | 1.0.0 | 2026-04-21 |
+| email-sequence | 1.2.0 | 2026-03-14 |
+| form-cro | 1.2.0 | 2026-03-14 |
+| free-tool-strategy | 1.2.0 | 2026-03-14 |
+| launch-strategy | 1.2.0 | 2026-03-14 |
+| lead-magnets | 1.0.0 | 2026-03-14 |
+| marketing-ideas | 1.2.0 | 2026-03-14 |
+| marketing-psychology | 1.2.0 | 2026-03-14 |
+| onboarding-cro | 1.2.0 | 2026-03-14 |
+| page-cro | 1.2.0 | 2026-03-14 |
+| paid-ads | 1.2.0 | 2026-03-14 |
+| paywall-upgrade-cro | 1.2.0 | 2026-03-14 |
+| popup-cro | 1.2.0 | 2026-03-14 |
+| pricing-strategy | 1.2.0 | 2026-03-14 |
+| product-marketing-context | 1.2.0 | 2026-03-14 |
+| programmatic-seo | 1.2.0 | 2026-03-14 |
+| referral-program | 1.2.0 | 2026-03-14 |
+| revops | 1.2.0 | 2026-03-14 |
+| sales-enablement | 1.2.0 | 2026-03-14 |
+| schema-markup | 1.2.0 | 2026-03-14 |
+| seo-audit | 1.2.0 | 2026-03-14 |
+| signup-flow-cro | 1.2.0 | 2026-03-14 |
+| site-architecture | 1.2.0 | 2026-03-14 |
+| social-content | 1.3.0 | 2026-04-24 |
+| image | 1.0.0 | 2026-04-24 |
+| video | 1.0.0 | 2026-04-24 |
 
 ## Recent Changes
+
+### 2026-04-24
+- Added `image` skill for AI image generation, design tools, profile/listing banners, and optimization
+- Added `video` skill for AI video production (Hyperframes, HeyGen, Veo, Runway, Kling)
+- Added short-form video section to `social-content` (1.3.0) — TikTok, Reels, Shorts frameworks
+- Added HeyGen and Hyperframes tool integration guides
+- Fixed plugin marketplace: `source` field now passes Claude Code schema validation (#270)
+- Added proper `plugin.json` manifest with `"skills": "./skills"`
+- Total skills: 40
+
+### 2026-04-21
+- Added `directory-submissions` skill for Product Hunt, G2, AI directories, and backlink strategy
+- Added `competitor-profiling` skill for competitive intelligence research
+- Added international SEO & localization section to `seo-audit` (1.2.0)
+- Added conversion tracking reference to `paid-ads` (cross-platform pixel setup)
+- Added Zapier SDK integration for 8,000+ app access
+- Fixed plugin loading: removed `./` prefix from marketplace.json skill paths (#243)
+- Hardened CLI tools: Supermetrics API key moved to header, ZoomInfo JWT masked by default
+- Fixed community-marketing YAML frontmatter (#240)
+- Fixed Zapier webhook URL validation (#247)
+- Added missing skills to VERSIONS.md (aso-audit, community-marketing, customer-research — shipped in prior releases)
+- Total skills: 38
+
+### 2026-03-14
+- Added `lead-magnets` skill for lead magnet strategy, format selection, and conversion optimization
+- Added Composio integration layer for MCP access to OAuth-heavy tools (HubSpot, Salesforce, Meta Ads, LinkedIn Ads, Google Sheets, Slack, Notion, etc.)
+- Added headless CMS integration guides (Sanity, Contentful, Strapi) with headless-cms reference
+- Added 197 evals across all 33 skills for automated quality testing
+- Optimized all 32 skill descriptions for better trigger phrase matching
+- Replaced rigid imperatives with reasoning-based guidance across all skills
+- Added 10 new CLI tools (airops, clay, close, coupler, crossbeam, outreach, pendo, similarweb, supermetrics, zoominfo)
+- Added 13 new integration guides
+- Bumped all 32 existing skills from 1.1.0 → 1.2.0
 
 ### 2026-02-27
 - Migrated context path from `.claude/` to `.agents/` for agent-agnostic compatibility
